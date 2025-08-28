@@ -1,0 +1,39 @@
+{
+  "pageTitle": "Our Courses",
+  "pageSubtitle": "Explore our interactive coding courses",
+  "searchPlaceholder": "Search courses...",
+  "viewCourse": "View Course",
+  "filters": ["Beginner", "Intermediate", "Advanced"],
+  "courses": [
+    {
+      "title": "Introduction to Python",
+      "description": "Learn Python from scratch with interactive exercises.",
+      "level": "Beginner",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "JavaScript Fundamentals",
+      "description": "Master the basics of JavaScript and DOM manipulation.",
+      "level": "Beginner",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "React for Beginners",
+      "description": "Build dynamic web applications using React.",
+      "level": "Intermediate",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "Advanced Node.js",
+      "description": "Learn server-side development with Node.js.",
+      "level": "Advanced",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "Fullstack Project",
+      "description": "Build a fullstack app integrating frontend and backend.",
+      "level": "Intermediate",
+      "image": "/Hero.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "featuresTitle": "Why choose our platform?",
+  "illustration": "/Hero.png",
+  "items": [
+    {
+      "icon": "💻",
+      "title": "Live IDE in your browser",
+      "description": "Code directly in your browser without any setup."
+    },
+    {
+      "icon": "📚",
+      "title": "Interactive courses for all levels",
+      "description": "Learn step by step, from beginner to advanced."
+    },
+    {
+      "icon": "🏆",
+      "title": "Track your progress",
+      "description": "Keep track of your achievements and milestones."
+    },
+    {
+      "icon": "🌐",
+      "title": "Multilingual support",
+      "description": "Use the platform in multiple languages, including Arabic and English."
+    }
+  ]
+}

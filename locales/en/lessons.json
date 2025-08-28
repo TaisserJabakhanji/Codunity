@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "courseId": 1,
+    "title": "Introduction to Python",
+    "description": "We’ll cover the basics.",
+    "content": "Here goes the full lesson content with examples.",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "courseId": 1,
+    "title": "Variables and Data Types",
+    "description": "Explanation about variables and basic data types.",
+    "content": "Full lesson content text.",
+    "completed": false
+  }
+]

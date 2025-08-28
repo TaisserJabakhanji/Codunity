@@ -1,0 +1,9 @@
+{
+  "title": "Our Journey",
+  "description": "It all started with a small idea and a passion for coding. Today, Codunity empowers learners of all ages with a complete educational platform and a built-in IDE.",
+  "highlights": [
+    { "text": "Started from a small idea and passion" },
+    { "text": "Built a complete coding platform" },
+    { "text": "Supports learners of all ages" }
+  ]
+}

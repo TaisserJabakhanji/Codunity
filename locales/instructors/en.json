@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Our Instructors",
+  "pageSubtitle": "Learn from experienced instructors",
+  "instructors": [
+    {
+      "name": "John Doe",
+      "title": "Frontend Developer",
+      "specialty": "Frontend",
+      "bio": "Expert in React and modern web development.",
+      "avatar": "/Hero.png"
+    },
+    {
+      "name": "Jane Smith",
+      "title": "Backend Developer",
+      "specialty": "Backend",
+      "bio": "Specialist in Python, Django, and APIs.",
+      "avatar": "/Hero.png"
+    }
+  ]
+}

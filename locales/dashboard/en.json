@@ -1,0 +1,12 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}!",
+    "yourCourses": "Your Courses",
+    "progress": "Progress",
+    "continue": "Continue",
+    "noCourses": "You have no enrolled courses yet.",
+    "ideTitle": "Code Editor",
+    "ideDesc": "Write and test your code directly inside the platform."
+  }
+}

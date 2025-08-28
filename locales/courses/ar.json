@@ -1,0 +1,39 @@
+{
+  "pageTitle": "دوراتنا",
+  "pageSubtitle": "اكتشف دورات البرمجة التفاعلية الخاصة بنا",
+  "searchPlaceholder": "ابحث عن دورة...",
+  "viewCourse": "عرض الدورة",
+  "filters": ["مبتدئ", "متوسط", "متقدم"],
+  "courses": [
+    {
+      "title": "مقدمة في Python",
+      "description": "تعلم بايثون من الصفر مع تمارين تفاعلية.",
+      "level": "مبتدئ",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "أساسيات Javascript",
+      "description": "أتقن أساسيات JavaScript والتعامل مع DOM.",
+      "level": "مبتدئ",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "React للمبتدئين",
+      "description": "بناء تطبيقات ويب ديناميكية باستخدام React.",
+      "level": "متوسط",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "Node.js المتقدم",
+      "description": "تعلم تطوير السيرفرات باستخدام Node.js.",
+      "level": "متقدم",
+      "image": "/Hero.png"
+    },
+    {
+      "title": "مشروع Fullstack",
+      "description": "بناء تطبيق Fullstack يدمج بين الواجهة الخلفية والأمامية.",
+      "level": "متوسط",
+      "image": "/Hero.png"
+    }
+  ]
+}

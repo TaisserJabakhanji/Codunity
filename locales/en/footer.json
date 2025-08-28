@@ -1,0 +1,8 @@
+{
+  "description": "A modern learning platform to code directly in your browser.",
+  "quickLinksTitle": "Quick Links",
+  "quickLinks": ["Home", "Courses", "About Us", "Contact"],
+  "contactTitle": "Contact Us",
+  "contact": ["Email: info@codunity.com", "Phone: +963 999 999 999"],
+  "rights": "All rights reserved."
+}

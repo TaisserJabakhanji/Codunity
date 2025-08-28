@@ -1,0 +1,21 @@
+{
+  "title": "Frequently Asked Questions",
+  "items": [
+    {
+      "question": "Do I need prior coding experience?",
+      "answer": "No, our platform is suitable for beginners and experienced developers alike."
+    },
+    {
+      "question": "Can I use the IDE directly in my browser?",
+      "answer": "Yes, the IDE is fully integrated and runs entirely in your browser."
+    },
+    {
+      "question": "Are the courses interactive?",
+      "answer": "Absolutely! All courses have interactive exercises and real projects."
+    },
+    {
+      "question": "Is this platform free?",
+      "answer": "We offer both free and premium courses for learners of all levels."
+    }
+  ]
+}

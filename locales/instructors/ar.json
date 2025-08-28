@@ -1,0 +1,20 @@
+{
+  "pageTitle": "مدرسونا",
+  "pageSubtitle": "تعلم من معلمين ذوي خبرة",
+  "instructors": [
+    {
+      "name": "جون دو",
+      "title": "مطور واجهات أمامية",
+      "specialty": "Frontend",
+      "bio": "خبير في React وتطوير الويب الحديث.",
+      "avatar": "/Hero.png"
+    },
+    {
+      "name": "جين سميث",
+      "title": "مطور واجهات خلفية",
+      "specialty": "Backend",
+      "bio": "متخصص في بايثون وDjango وAPIs.",
+      "avatar": "/Hero.png"
+    }
+  ]
+}

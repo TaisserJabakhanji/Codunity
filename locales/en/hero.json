@@ -1,0 +1,14 @@
+{
+  "headline": "Learn Coding Directly in Your Browser!",
+  "subheadline": "A complete educational platform with a built-in IDE, suitable for all ages.",
+  "cta": {
+    "startNow": "Start Now",
+    "browseCourses": "Browse Courses"
+  },
+  "illustration": "/Hero.png",
+  "quickFeatures": [
+    "💻 Live IDE in your browser",
+    "📚 Interactive courses for all levels",
+    "🏆 Track your progress and achievements"
+  ]
+}

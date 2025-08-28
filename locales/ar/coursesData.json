@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "مقدمة في البرمجة",
+    "description": "تعلم أساسيات البرمجة خطوة بخطوة",
+    "progress": 60,
+    "image": "/Hero.png"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript للمبتدئين",
+    "description": "كل ما تحتاجه للانطلاق مع JavaScript",
+    "progress": 30,
+    "image": "/Hero.png"
+  },
+  {
+    "id": 3,
+    "title": "تطوير واجهات React",
+    "description": "بناء تطبيقات ويب احترافية باستخدام React",
+    "progress": 80,
+    "image": "/Hero.png"
+  }
+]
