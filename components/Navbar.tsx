@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { ModeToggle } from "./ModeToggle";
-import {  SignedIn, SignedOut, useClerk, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, useClerk, UserButton } from "@clerk/nextjs";
 import MobileNavbar from "./MobileNavbar";
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
@@ -58,7 +58,7 @@ const Navbar = () => {
                             </button>
                         </SignedOut>
                         <SignedIn>
-                            <UserButton/>
+                            <UserButton />
                         </SignedIn>
                 </div>
             </nav>

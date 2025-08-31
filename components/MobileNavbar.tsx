@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ModeToggle } from "./ModeToggle";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import { useClerk } from "@clerk/nextjs";
 import { TiThMenu } from "react-icons/ti";
 import { FaWindowClose } from "react-icons/fa";
 import { useLanguage } from '@/context/LanguageContext';
@@ -17,6 +17,8 @@ import Link from 'next/link';
     const { lang, setLang } = useLanguage();
     const data = lang === "ar" ? ar : en;
     const handleLinkClick = () => setMenuOpen(false);
+
+    const { openSignIn } = useClerk()
 
     return (
         
@@ -70,12 +72,9 @@ import Link from 'next/link';
                 >
                     {lang === "en" ? "العربية" : "Eng"}
                 </button>
-                <SignedOut>
-                    <SignInButton/>
-                </SignedOut>
-                <SignedIn>
-                    <UserButton/>
-                </SignedIn>
+                <button onClick={() => openSignIn()} className='bg-[var(--foreground)] text-[var(--background)] rounded-md cursor-pointer'>
+                    {lang === "ar"? "تسجيل الدخول" : "Signin"}
+                </button>
             </div>
         </div>
         </nav>
