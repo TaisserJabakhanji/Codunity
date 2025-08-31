@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { ModeToggle } from "./ModeToggle";
-import {  SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import {  SignedIn, SignedOut, useClerk, UserButton } from "@clerk/nextjs";
 import MobileNavbar from "./MobileNavbar";
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
@@ -16,6 +16,8 @@ const Navbar = () => {
 
     const { lang, setLang } = useLanguage();
     const data = lang === "ar" ? ar : en;
+
+    const { openSignIn } = useClerk()
 
     return (
                 <>
@@ -51,7 +53,9 @@ const Navbar = () => {
                         </button>
                     </div>
                         <SignedOut>
-                            <SignInButton/>
+                            <button onClick={() => openSignIn()} className='bg-[var(--foreground)] text-[var(--background)] rounded-md cursor-pointer'>
+                                {lang === "ar"? "تسجيل الدخول" : "Signin"}
+                            </button>
                         </SignedOut>
                         <SignedIn>
                             <UserButton/>
