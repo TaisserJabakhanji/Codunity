@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ModeToggle } from "./ModeToggle";
-import { useClerk } from "@clerk/nextjs";
+import { SignedIn, SignedOut, useClerk, UserButton } from "@clerk/nextjs";
 import { TiThMenu } from "react-icons/ti";
 import { FaWindowClose } from "react-icons/fa";
 import { useLanguage } from '@/context/LanguageContext';
@@ -72,9 +72,14 @@ import Link from 'next/link';
                 >
                     {lang === "en" ? "العربية" : "Eng"}
                 </button>
-                <button onClick={() => openSignIn()} className='bg-[var(--foreground)] text-[var(--background)] rounded-md cursor-pointer'>
-                    {lang === "ar"? "تسجيل الدخول" : "Signin"}
-                </button>
+                <SignedOut>
+                    <button onClick={() => openSignIn()} className='bg-[var(--foreground)] text-[var(--background)] rounded-md cursor-pointer'>
+                        {lang === "ar"? "تسجيل الدخول" : "Signin"}
+                    </button>
+                </SignedOut>
+                <SignedIn>
+                    <UserButton />
+                </SignedIn>
             </div>
         </div>
         </nav>
