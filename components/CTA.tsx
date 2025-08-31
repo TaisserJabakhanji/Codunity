@@ -12,7 +12,7 @@ export default function CTA() {
   const data = lang === 'ar' ? ctaAr : ctaEn;
 
   return (
-    <section className="max-md:bg-[var(--cta-bg)] py-20 px-6 bg-[var(--cta-bg)] dark:bg-[var(--cta-bg-dark)] text-[var(--foreground)] transition-colors duration-300">
+    <section className="text-[var(--foreground)] transition-colors duration-300">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
         
         {/* Text Content */}
