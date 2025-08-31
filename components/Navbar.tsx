@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { ModeToggle } from "./ModeToggle";
-import {  SignInButton, UserButton } from "@clerk/nextjs";
+import {  SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import MobileNavbar from "./MobileNavbar";
 import Link from 'next/link';
 import { useLanguage } from '@/context/LanguageContext';
@@ -50,10 +50,12 @@ const Navbar = () => {
                             {lang === "en" ? "العربية" : "Eng"}
                         </button>
                     </div>
-                    <SignInButton>
-                        <button className="font-semibold bg-[var(--foreground)] text-[var(--background)] px-4 py-2 rounded-lg cursor-pointer">Sign In</button>
-                    </SignInButton>
-                    <UserButton />
+                        <SignedOut>
+                            <SignInButton/>
+                        </SignedOut>
+                        <SignedIn>
+                            <UserButton/>
+                        </SignedIn>
                 </div>
             </nav>
 

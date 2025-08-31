@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { ModeToggle } from "./ModeToggle";
-import { SignInButton, UserButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { TiThMenu } from "react-icons/ti";
 import { FaWindowClose } from "react-icons/fa";
 import { useLanguage } from '@/context/LanguageContext';
@@ -70,12 +70,12 @@ import Link from 'next/link';
                 >
                     {lang === "en" ? "العربية" : "Eng"}
                 </button>
-            <SignInButton>
-                <button className="font-semibold max-w-[65%] mx-auto mt-2 bg-[var(--foreground)] text-[var(--background)] px-4 py-2 rounded-lg cursor-pointer">
-                Sign In
-                </button>
-            </SignInButton>
-            <UserButton />
+                <SignedOut>
+                    <SignInButton/>
+                </SignedOut>
+                <SignedIn>
+                    <UserButton/>
+                </SignedIn>
             </div>
         </div>
         </nav>
