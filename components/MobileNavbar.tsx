@@ -22,7 +22,7 @@ import Link from 'next/link';
 
     return (
         
-        <nav className="w-full flex flex-col">
+        <nav className="z-50 w-full bg-[var(--background)] min-md:hidden">
         {/* Header */}
         <div className="flex flex-row justify-between items-center py-4 px-4">
             {menuOpen ? (

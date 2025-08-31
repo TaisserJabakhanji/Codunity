@@ -62,6 +62,9 @@ const Navbar = () => {
                         </SignedIn>
                 </div>
             </nav>
+            <br className='max-md:hidden'/>
+            <br className='max-md:hidden'/>
+            <br className='max-md:hidden'/>
 
             <MobileNavbar />
 
